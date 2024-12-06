@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script>
+        function App(){
+            //first parameter - element(p,div,h1,h5...) ; second parameter - object atributes ; third parameter - text that will be set inside the element
+            React.createElement('p',{id:'paragraph'} , 'hello')
+            React.createElement('div',{id: 'parent div'}, React.createElement('p', {id:'child-div'},' hello'))
+            // ობიექტი მეორე არგუმენტად რატომ აქვს? - ატრუბუტი
+        }
+
+        //first parameter - component name ; second parameter - the element that should be rendered
+        ReactDom.render(App(), document.getElementById('root'))
+    
+    </script>
+</body>
+</html>

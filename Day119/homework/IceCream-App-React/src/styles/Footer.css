@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.Footer-div{
+    margin-top:100px;
+    background-color: palevioletred;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-grid-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:30px;
+    gap:40%;
+}
+
+.Quick-Links li{
+    list-style: none;
+    margin-top:5px;
+    text-align: center;
+}
+
+.info-div{
+    width:450px;
+}
+
+.info-div p{
+    width:200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:18px;;
+}
+
+form p{
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+input{
+    margin-top:10px;
+    padding-left:5px;
+    height:30px;
+    border-radius:3px;
+    border:none;
+}
+
+.second-input{
+    height:50px;
+    padding-bottom:20px;
+}

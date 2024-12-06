@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.SecondSection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+.ice-cream-list{
+    display:grid;
+    grid-template-columns: repeat(3,300px);
+}
+
+.ICE-CREAM-data-div{
+    margin-top:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ice-cream-img{
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    border-radius:3px;
+
+}
+
+
+
+.ice-cream-name{
+    font-size:26px;
+    margin-top:10px;
+}
+
+.ice-cream-info{
+    text-align:center;
+    width:250px;
+}
